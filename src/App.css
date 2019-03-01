@@ -1,0 +1,55 @@
+body {
+  text-align: center;
+  color: #555555;
+}
+
+span {
+  color: #555555;
+}
+
+.nav {
+  background: #adacac;
+  padding: 10px 0;
+  border: solid 5px #cccccc;
+}
+
+.nav__link {
+  margin: 0 15px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.home,
+.contact,
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #ccc;
+  border: solid 5px #adacac;
+}
+
+.error {
+  color: red;
+}
+
+.users {
+  min-height: 100vh;
+  background: #101010;
+  border: solid 5px #adacac;
+  padding-top: 50px;
+  color: #e8ad00;
+  overflow: hidden;
+}
+
+.users h2 {
+  transform: perspective(142px) rotateX(16deg);
+}
+
+.selected {
+  color: #e8ad00;
+}
+
+
